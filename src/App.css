@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(238, 238, 238, 0.75);
+}
+
+.title {
+  padding: 20px;
+  margin: 20px;
+  color: rgb(116, 140, 241);
+  text-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 1em rgb(253, 253, 253),
+    0 0 0.2em rgb(250, 250, 250);
+}
+
+.App {
+  /* url("./Assets/cold-bg1.jpg");  */
+  /* background-image: url("./Assets/warm-bg1.jpg"); */
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  margin: 0 auto;
+  border: 10px, solid, grey;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.input:focus {
+  outline: none;
+  background-color: rgba(238, 238, 238, 0.75);
+}
+
+.display-box {
+  /* margin: 20px auto; */
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 20px 22px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  background-color: rgba(238, 238, 238, 0.75);
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cityName {
+  padding: 20px;
+  text-align: center;
+}
+
+.display-box p {
+  padding: 10px;
+}
+
+.description {
+  text-transform: capitalize;
+}

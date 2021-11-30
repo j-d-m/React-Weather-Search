@@ -45,20 +45,6 @@ const App = () => {
     }
   }, [city]);
 
-  /*TRYING TO SET THE BACKGROUND DEPENDING ON THE WEATHER DATA*/
-
-  // function setBackground() {
-  //   const anyName2 = weatherData.map((temp) => {
-  //     if (temp) {
-  //       const store = temp.main.temp;
-  //     } else {
-  //       console.log("catch");
-  //     }
-  //   });
-  //   setTemp(anyName2);
-  // }
-  // console.log(temp);
-
   return (
     <div
       className="App"
